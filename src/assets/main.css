@@ -1,35 +1,98 @@
-@import './base.css';
+@import './variables.css';
+@import 'tailwindcss';
 
-#app {
-  max-width: 1280px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+}
+
+/* smoother background feel for nature theme */
+body {
+  background-image: radial-gradient(
+    circle at top,
+    rgba(47,133,90,0.08),
+    transparent 60%
+  );
+}
+
+.page-container {
+  width: min(85%, 1600px);
   margin: 0 auto;
-  padding: 2rem;
-  font-weight: normal;
+  padding-inline: 24px;
 }
 
-a,
-.green {
+@media (max-width: 1200px) {
+  .page-container {
+    width: 100%;
+  }
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+h1, h2, h3 {
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+p {
+  color: var(--text-soft);
+}
+
+/* BUTTON */
+.btn {
+  display: inline-block;
+  padding: 14px 28px;
+  border-radius: var(--radius-full);
+  background: var(--primary);
+  color: white;
+  font-weight: 700;
   text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
-  padding: 3px;
+  transition: var(--transition);
+  box-shadow: var(--shadow-sm);
 }
 
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
+.btn:hover {
+  transform: translateY(-2px);
+  background: var(--primary-hover);
+  box-shadow: var(--shadow-md);
+}
+/* GRID */
+.grid {
+  display: grid;
+  gap: 24px;
+}
+
+/* 3 columns desktop */
+.grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* 2 columns tablet */
+@media (max-width: 900px) {
+  .grid-3 {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
-
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
+/* 1 column mobile */
+@media (max-width: 600px) {
+  .grid-3 {
+    grid-template-columns: 1fr;
   }
 }

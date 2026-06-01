@@ -1,0 +1,63 @@
+:root {
+  /* ========== LIGHT MODE (default) ========== */
+
+  --bg: #f6f8f5;
+  --bg-soft: #eef3ec;
+  --bg-card: #ffffff;
+  --bg-elevated: #ffffff;
+
+  --text: #102016;
+  --text-soft: #2f3b33;
+  --text-muted: rgba(16, 32, 22, 0.7);
+
+  /* NATURE ACCENT (forest green) */
+  --primary: #4baa7a;
+  --primary-hover: #7cebb0;
+
+  /* SKY / TRAIL BLUE */
+  --secondary: #63b3ed;
+  --secondary-hover: #3182ce;
+
+  --border: rgba(16, 32, 22, 0.10);
+  --border-strong: rgba(16, 32, 22, 0.18);
+
+  --shadow-sm: 0 6px 18px rgba(0,0,0,0.06);
+  --shadow-md: 0 14px 40px rgba(0,0,0,0.10);
+
+  --overlay: rgba(255,255,255,0.35);
+
+  --font: Inter, sans-serif;
+
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-full: 999px;
+
+  --transition: 0.25s ease;
+}
+
+/* ========== DARK MODE ========== */
+[data-theme="dark"] {
+  --bg: #0b1220;
+  --bg-soft: #0f172a;
+  --bg-card: #111827;
+  --bg-elevated: #121824;
+
+  --text: #ffffff;
+  --text-soft: #cbd5e1;
+  --text-muted: rgba(255,255,255,0.7);
+
+  --primary: #34d399;        /* bolj “trail glow” */
+  --primary-hover: #6ee7b7;
+
+  --secondary: #60a5fa;
+  --secondary-hover: #93c5fd;
+
+  --border: rgba(255,255,255,0.08);
+  --border-strong: rgba(255,255,255,0.15);
+
+  --shadow-sm: 0 4px 12px rgba(0,0,0,0.2);
+  --shadow-md: 0 10px 30px rgba(0,0,0,0.3);
+
+  --overlay: rgba(0,0,0,0.55);
+}

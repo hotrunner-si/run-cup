@@ -1,44 +1,24 @@
 # run-cup
 
-This template should help get you started developing with Vue 3 in Vite.
+spletna stran Tekaškega pokala Občine Kamnik
 
-## Recommended IDE Setup
+## ciljna struktura:
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+home page s kratko predstavitvijo, tekmami, galerijo in sponzorji
 
-## Recommended Browser Setup
+races pages z opisom posameznih tekem
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+results page 
+- aktualni pokal
+- rezultati iz preteklosti
 
-## Customize configuration
+kontakt page
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## trenutno 
 
-## Project Setup
+samo home page
 
-```sh
-npm install
-```
+## netlify
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+zaenkrat stran gostuje na netlify
+pokal-kamnik.netlify.app
