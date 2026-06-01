@@ -16,7 +16,7 @@ kontakt page
 
 ## trenutno 
 
-samo home page
+home page in podstrani za posamezno tekmo v izdelavi
 
 ## netlify
 
