@@ -2,21 +2,23 @@
   <footer>
     <div class="container footer">
       <div>
-        <h3>Pokal Kamnik</h3>
-        <p>Trail in gorski teki v Kamniku.</p>
+        <h3>Tekaški Pokal Občine Kamnik</h3>
+        <p>Trail tek, gorski tek in kros.</p>
+      </div>
+
+      <div class="footer-links">
+        <RouterLink to="/#tekme">Tekme</RouterLink>
+        <RouterLink to="/rezultati">Rezultati</RouterLink>
       </div>
 
       <div>
-        <h4>Linki</h4>
-        <a href="#tekme">Tekme</a>
-        <a href="#">Kontakt</a>
+        <h3>Občina Kamnik</h3>
+        
       </div>
 
-      <div>
-        <h4>Organizatorji</h4>
-        <p>KGT Papež</p>
-        <p>TPD Ultra</p>
-      </div>
+
+
+    
     </div>
 
     <div class="bottom">
@@ -29,19 +31,29 @@
 </template>
 
 <style scoped>
-footer {
-  border-top: 1px solid rgba(255,255,255,0.1);
-  padding-top: 60px;
-}
 
 .footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
-  padding-bottom: 40px;
+  padding-bottom: var(--space-4);
+  border-top: 1px solid var(--border);
+  padding-top: 60px;
 }
 
-
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.footer :deep(a) {
+  color: var(--text);
+  text-decoration: none;
+}
+.footer :deep(a):hover {
+  color: var(--text);
+  text-decoration: underline;
+}
 
 .bottom {
   text-align: center;
@@ -59,7 +71,6 @@ footer {
   text-align: center;
   font-size: 0.85rem;
 }
-
 
 @media (max-width: 768px) {
   .footer {

@@ -24,7 +24,7 @@
   --shadow-sm: 0 6px 18px rgba(0,0,0,0.06);
   --shadow-md: 0 14px 40px rgba(0,0,0,0.10);
 
-  --overlay: rgba(255,255,255,0.35);
+  --overlay: rgba(0, 0, 0, 0.35);
 
   --font: Inter, sans-serif;
 
@@ -32,6 +32,15 @@
   --radius-md: 14px;
   --radius-lg: 20px;
   --radius-full: 999px;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 16px;
+  --space-4: 24px;
+  --space-5: 32px;
+  --space-6: 48px;
+  --space-7: 64px;
+  --space-8: 96px;
 
   --transition: 0.25s ease;
 }

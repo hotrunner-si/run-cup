@@ -15,7 +15,7 @@ import { kamnik_races } from '@/data/races'
 
 <style scoped>
 .section {
-  padding: var(--space-8) 0;
+  padding: var(--space-7) 0;
 }
 
 h2 {

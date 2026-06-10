@@ -25,8 +25,8 @@
       <p class="course-desc">{{ course.description }}</p>
 
       <div class="course-media">
-        <img :src="course.mapImage" />
-        <img :src="course.elevationProfile" />
+        <CourseMap :gpx-file="course.gpxFile" />
+
       </div>
 
     </div>
@@ -36,6 +36,7 @@
 
 <script setup>
 import RaceSection from './RaceSection.vue'
+import CourseMap from './CourseMap.vue'
 
 defineProps({
   race: Object,
@@ -65,4 +66,14 @@ defineEmits(['toggle'])
   border-radius: 10px;
 }
 
+.map {
+  width: 100%;
+  height: 500px;
+}
+
+@media (max-width: 768px) {
+  .map {
+    height: 320px;
+  }
+}
 </style>

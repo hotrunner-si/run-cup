@@ -1,5 +1,4 @@
 @import './variables.css';
-@import 'tailwindcss';
 
 * {
   margin: 0;
@@ -18,7 +17,6 @@ body {
   line-height: 1.5;
 }
 
-/* smoother background feel for nature theme */
 body {
   background-image: radial-gradient(
     circle at top,
@@ -54,8 +52,8 @@ p {
   color: var(--text-soft);
 }
 
-/* BUTTON */
 .btn {
+  margin-top: var(--space-3);
   display: inline-block;
   padding: 14px 28px;
   border-radius: var(--radius-full);
@@ -68,29 +66,25 @@ p {
 }
 
 .btn:hover {
-  transform: translateY(-2px);
   background: var(--primary-hover);
   box-shadow: var(--shadow-md);
 }
-/* GRID */
+
 .grid {
   display: grid;
   gap: 24px;
 }
 
-/* 3 columns desktop */
 .grid-3 {
   grid-template-columns: repeat(3, 1fr);
 }
 
-/* 2 columns tablet */
 @media (max-width: 900px) {
   .grid-3 {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-/* 1 column mobile */
 @media (max-width: 600px) {
   .grid-3 {
     grid-template-columns: 1fr;

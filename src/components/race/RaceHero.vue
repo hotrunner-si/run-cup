@@ -65,13 +65,13 @@
   .hero h1 {
     font-size: 3rem;
     margin: 0.5rem 0;
-    color: var(--secondary);
+    color: white;
   }
   .hero p {
     font-size: 1.1rem;
     opacity: 0.9;
     margin-bottom: 1rem;
-    color: rgb(196, 209, 221)
+    color: rgb(221, 221, 221)
   }
 
   .hero-meta span {

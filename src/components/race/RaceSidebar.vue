@@ -2,7 +2,7 @@
   <aside class="sidebar">
     <div class="sticky">
 
-      <a class="btn primary" :href="race.links.bulletin">
+      <a class="btn primary" :href="race.links.pdfInfo" target="_blank">
         Uradni razpis
       </a>
 
@@ -10,11 +10,9 @@
         Prijavim.se
       </a>
 
-      <!-- RACE NAV -->
       <nav class="race-nav">
         <a href="#info">Pregled</a>
         <a href="#registration">Prijave</a>
-        <a href="#categories">Kategorije</a>
         <a href="#raceday">Dan tekme</a>
         <a href="#schedule">Časovnica</a>
         <a href="#courses">Proge</a>

@@ -16,11 +16,6 @@
             @toggle="toggleSection('registration')"
           />
 
-          <RaceCategories 
-            :race="race"
-            :open="openSection === 'categories'"
-            @toggle="toggleSection('categories')"
-          />
 
           <RaceDay 
             :race="race"
@@ -160,6 +155,10 @@ function toggleSection(name) {
     display: block;
     padding: 1.5rem;
   }
+}
+
+[id] {
+  scroll-margin-top: 100px;
 }
 
 
