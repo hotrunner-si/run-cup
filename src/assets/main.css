@@ -28,10 +28,15 @@ body {
 .page-container {
   width: min(85%, 1600px);
   margin: 0 auto;
-  padding-inline: 24px;
 }
 
 @media (max-width: 1200px) {
+  .page-container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 400px) {
   .page-container {
     width: 100%;
   }

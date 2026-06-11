@@ -26,58 +26,67 @@
 </script>
 
 <style scoped>
-  .hero {
-    position: relative;
-    height: 70vh;
-    overflow: hidden;
+.hero {
+  position: relative;
+  min-height: 70vh;
+  overflow: hidden;
+}
 
+.hero-img {
+  width: 100%;
+  height: 100%;
+  min-height: 70vh;
+  object-fit: cover;
+}
+
+.hero-content {
+  position: absolute;
+  left: clamp(1rem, 5vw, 3rem);
+  right: 1rem;
+  bottom: clamp(2rem, 8vw, 3rem);
+  max-width: 700px;
+}
+
+.hero h1 {
+  font-size: clamp(2rem, 7vw, 3rem);
+  line-height: 1.05;
+  margin: 0.5rem 0;
+  color: white;
+}
+
+.hero p {
+  font-size: clamp(0.95rem, 3vw, 1.1rem);
+  opacity: 0.9;
+  margin-bottom: 1rem;
+  color: rgb(221, 221, 221);
+}
+
+.hero-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+}
+
+.hero-meta span {
+  margin-right: 0;
+  opacity: 0.85;
+  color: rgb(196, 209, 221);
+}
+
+@media (max-width: 600px) {
+  .hero {
+    min-height: 62vh;
   }
 
   .hero-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    min-height: 62vh;
   }
 
-  .hero-overlay {
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(
-      to top,
-      rgba(0,0,0,0.45),
-      rgba(0,0,0,0.1)
-    );
+  .desc {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
-
-  .hero-content {
-    position: absolute;
-    bottom: 3rem;
-    left: 3rem;
-    max-width: 700px;
-  }
-
-  .kicker {
-    text-transform: uppercase;
-    opacity: 0.7;
-    font-size: 0.9rem;
-  }
-
-  .hero h1 {
-    font-size: 3rem;
-    margin: 0.5rem 0;
-    color: white;
-  }
-  .hero p {
-    font-size: 1.1rem;
-    opacity: 0.9;
-    margin-bottom: 1rem;
-    color: rgb(221, 221, 221)
-  }
-
-  .hero-meta span {
-    margin-right: 1rem;
-    opacity: 0.85;
-    color: rgb(196, 209, 221);
-  }
-
+}
 </style>

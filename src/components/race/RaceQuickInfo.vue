@@ -15,6 +15,29 @@
       <div class="value">{{ race.hero.organizer }}</div>
     </div>
   </section>
+  <section class="section">
+    <div class="mobile-actions">
+      <a
+        v-if="race.links?.pdfInfo"
+        class="btn primary"
+        :href="race.links.pdfInfo"
+        target="_blank"
+        rel="noopener"
+      >
+        Uradni razpis
+      </a>
+
+      <a
+        v-if="race.links?.registration"
+        class="btn"
+        :href="race.links.registration"
+        target="_blank"
+        rel="noopener"
+      >
+        Prijavim.se
+      </a>
+    </div>  
+  </section>
 </template>
 
 <script setup>
@@ -47,4 +70,27 @@
   margin-top: 0.3rem;
 }
 
+.mobile-actions {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .mobile-actions {
+    display: grid;
+    margin: -0.5rem 0 2rem;
+  }
+
+  .mobile-actions .btn {
+    border-radius: 10px;
+    background: var(--bg-card);
+    color: var(--text);
+    text-decoration: none;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  .mobile-actions .btn.primary {
+    background: var(--secondary);
+  }
+}
 </style>

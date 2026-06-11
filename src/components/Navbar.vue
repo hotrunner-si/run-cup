@@ -213,6 +213,7 @@ onBeforeUnmount(() => {
   position: absolute;
   top: calc(100% + 0.75rem);
   left: 0;
+  list-style: none;
 
   min-width: 260px;
 

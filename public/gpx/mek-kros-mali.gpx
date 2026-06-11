@@ -11,16 +11,16 @@
     <name>mek-kros-mali</name>
     <trkseg>
       <trkpt lat="46.236051" lon="14.614686">
-        <ele>405</ele>
+        <ele>404.90007899883267</ele>
       </trkpt>
       <trkpt lat="46.235959" lon="14.614648">
-        <ele>405</ele>
+        <ele>404.9897087204413</ele>
       </trkpt>
       <trkpt lat="46.235633" lon="14.614575">
-        <ele>404.79</ele>
+        <ele>404.93658552977723</ele>
       </trkpt>
       <trkpt lat="46.235229" lon="14.614511">
-        <ele>404.42</ele>
+        <ele>404.8667186527657</ele>
       </trkpt>
       <trkpt lat="46.235135" lon="14.614512">
         <ele>404.86610446833294</ele>
@@ -44,34 +44,34 @@
         <ele>406.31508674160045</ele>
       </trkpt>
       <trkpt lat="46.235137" lon="14.614724">
-        <ele>406.31</ele>
+        <ele>406.9624426277106</ele>
       </trkpt>
       <trkpt lat="46.235329" lon="14.615004">
-        <ele>409.28</ele>
+        <ele>409.3714983191418</ele>
       </trkpt>
       <trkpt lat="46.23549" lon="14.615432">
-        <ele>411.66</ele>
+        <ele>411.6123600645547</ele>
       </trkpt>
       <trkpt lat="46.235489" lon="14.615443">
-        <ele>411.73</ele>
+        <ele>411.67742507622376</ele>
       </trkpt>
       <trkpt lat="46.23549" lon="14.615432">
-        <ele>411.66</ele>
+        <ele>411.6123600645547</ele>
       </trkpt>
       <trkpt lat="46.23552" lon="14.615511">
-        <ele>412.23</ele>
+        <ele>412.41659863610715</ele>
       </trkpt>
       <trkpt lat="46.235562" lon="14.615572">
-        <ele>412.58</ele>
+        <ele>412.9422674459418</ele>
       </trkpt>
       <trkpt lat="46.235924" lon="14.615876">
-        <ele>414.38</ele>
+        <ele>415.1587028600353</ele>
       </trkpt>
       <trkpt lat="46.235977" lon="14.615918">
-        <ele>414.63</ele>
+        <ele>415.23629241813825</ele>
       </trkpt>
       <trkpt lat="46.236126" lon="14.616007">
-        <ele>414.96</ele>
+        <ele>415.43731472203086</ele>
       </trkpt>
       <trkpt lat="46.236126" lon="14.616007">
         <ele>415.43731472203086</ele>
@@ -128,25 +128,25 @@
         <ele>412.32983126152976</ele>
       </trkpt>
       <trkpt lat="46.23685" lon="14.615941">
-        <ele>413.37</ele>
+        <ele>412.5827167684781</ele>
       </trkpt>
       <trkpt lat="46.236702" lon="14.61554">
-        <ele>411.54</ele>
+        <ele>411.2525873534189</ele>
       </trkpt>
       <trkpt lat="46.236581" lon="14.615165">
-        <ele>408.09</ele>
+        <ele>407.97672065385433</ele>
       </trkpt>
       <trkpt lat="46.236543" lon="14.614832">
-        <ele>406.99</ele>
+        <ele>406.9399245316597</ele>
       </trkpt>
       <trkpt lat="46.236549" lon="14.614828">
-        <ele>407.03</ele>
+        <ele>406.97669679591854</ele>
       </trkpt>
       <trkpt lat="46.236499" lon="14.614835">
-        <ele>406.64</ele>
+        <ele>406.6059466198811</ele>
       </trkpt>
       <trkpt lat="46.236412" lon="14.614819">
-        <ele>406.13</ele>
+        <ele>406.0704606953792</ele>
       </trkpt>
       <trkpt lat="46.236178" lon="14.614738">
         <ele>405.04462112817413</ele>

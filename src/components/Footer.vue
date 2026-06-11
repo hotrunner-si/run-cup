@@ -71,10 +71,18 @@
   text-align: center;
   font-size: 0.85rem;
 }
+.bottom a {
+  color: var(--text);
+  text-decoration: none;
+}
+.bottom a:hover {
+  text-decoration: underline;
+}
 
 @media (max-width: 768px) {
   .footer {
     grid-template-columns: 1fr;
   }
 }
+
 </style>

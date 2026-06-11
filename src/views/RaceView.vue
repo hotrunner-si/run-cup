@@ -95,12 +95,6 @@ function toggleSection(name) {
   padding-block: 3rem;
 }
 
-@media (max-width: 900px) {
-  .layout {
-    grid-template-columns: 1fr;
-  }
-}
-
 .section {
   margin-bottom: 4rem;
 }
@@ -141,19 +135,12 @@ function toggleSection(name) {
   .collapsible.open {
     display: block;
   }
-}
-
-@media (max-width: 900px) {
-
-  .layout {
-    grid-template-columns: 1fr;
-  }
-}
-
-@media (max-width: 900px) {
   .layout {
     display: block;
-    padding: 1.5rem;
+    padding: 1.25rem 1rem 2rem;
+  }
+    .page-container {
+    padding-inline: 0;
   }
 }
 

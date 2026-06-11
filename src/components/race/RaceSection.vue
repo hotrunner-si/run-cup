@@ -37,7 +37,7 @@ defineEmits(['toggle'])
 
 <style scoped>
 .section {
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 .section-title {
