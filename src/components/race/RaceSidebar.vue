@@ -7,7 +7,7 @@
       </a>
 
       <a class="btn" :href="race.links.registration">
-        Prijavim.se
+        Prijave
       </a>
 
       <nav class="race-nav">

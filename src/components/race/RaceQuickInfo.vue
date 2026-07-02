@@ -34,7 +34,7 @@
         target="_blank"
         rel="noopener"
       >
-        Prijavim.se
+        Prijave
       </a>
     </div>  
   </section>

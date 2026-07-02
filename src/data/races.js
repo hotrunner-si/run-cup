@@ -258,7 +258,7 @@ export const kamnik_races = [
       {
         name: 'Medium Trail',
         distance: '13 km',
-        elevation: '',
+        elevation: '700 m+',
         timeLimit: '',
         description: 'Srednje zahtevna trail preizkušnja.',
         gpxFile: '/gpx/vp-13.gpx',
